@@ -7,7 +7,7 @@ using Povaga.Activities;
 
 namespace Povaga
 {
-    [Activity(Label = "Povaga", MainLauncher = true, ScreenOrientation = ScreenOrientation.Portrait, Theme = "@android:style/Theme.Black.NoTitleBar")]
+    [Activity(Label = "Повага", MainLauncher = true, ScreenOrientation = ScreenOrientation.Portrait, Theme = "@android:style/Theme.Black.NoTitleBar")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

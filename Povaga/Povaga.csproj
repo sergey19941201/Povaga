@@ -58,6 +58,7 @@
     <Compile Include="Activities\Activity2.cs" />
     <Compile Include="Activities\Activity3.cs" />
     <Compile Include="Activities\Activity4.cs" />
+    <Compile Include="Activities\Activity5.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,7 +66,6 @@
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
-    <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\layout1.axml">
       <SubType>Designer</SubType>
@@ -77,6 +77,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\layout4.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\layout5.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -119,6 +122,12 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\anim\MyAnimation.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\IMG_20170907_106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
