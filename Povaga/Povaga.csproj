@@ -57,6 +57,7 @@
     <Compile Include="Activities\Activity1.cs" />
     <Compile Include="Activities\Activity2.cs" />
     <Compile Include="Activities\Activity3.cs" />
+    <Compile Include="Activities\Activity4.cs" />
     <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,6 +74,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\layout3.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\layout4.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
@@ -102,9 +106,6 @@
     <AndroidResource Include="Resources\drawable\IMG_20171102_105536.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\generalGolova.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\IMG_20170907_111746.png" />
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +113,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\IMG_20170907_112006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\generalgolova.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

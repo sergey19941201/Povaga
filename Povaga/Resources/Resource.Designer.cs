@@ -45,7 +45,7 @@ namespace Povaga
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int generalGolova = 2130837504;
+			public const int generalgolova = 2130837504;
 			
 			// aapt resource value: 0x7f020001
 			public const int IMG_20170907_111746 = 2130837505;
@@ -134,7 +134,10 @@ namespace Povaga
 			public const int layout3 = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int layout4 = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
 			
 			static Layout()
 			{

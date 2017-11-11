@@ -30,6 +30,10 @@ namespace Povaga.Activities
             {
                 StartActivity(typeof(Activity3));
             };
+            FindViewById<Button>(Resource.Id.button3).Click += delegate
+            {
+                StartActivity(typeof(Activity4));
+            };
         }
     }
 }
