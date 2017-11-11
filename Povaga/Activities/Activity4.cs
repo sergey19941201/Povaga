@@ -10,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Content.PM;
+using Android.Views.Animations;
 
 namespace Povaga.Activities
 {
@@ -21,6 +22,11 @@ namespace Povaga.Activities
             base.OnCreate(savedInstanceState);
 
             SetContentView(Resource.Layout.layout4);
+
+            Animation myAnimation = AnimationUtils.LoadAnimation(this, Resource.Animation.MyAnimation);
+            ImageView myImage = FindViewById<ImageView>(Resource.Id.imageView1);
+
+            myImage.StartAnimation(myAnimation);
         }
     }
 }
