@@ -73,19 +73,22 @@ namespace Povaga
 			public const int IMG_20170907_111909 = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int IMG_20170907_112006 = 2130837508;
+			public const int IMG_20170907_111920 = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int IMG_20171102_105536 = 2130837509;
+			public const int IMG_20170907_112006 = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int IMG_20171102_105758 = 2130837510;
+			public const int IMG_20171102_105536 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int Moking = 2130837511;
+			public const int IMG_20171102_105758 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int PovagaIcon = 2130837512;
+			public const int Moking = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int PovagaIcon = 2130837513;
 			
 			static Drawable()
 			{
@@ -159,7 +162,10 @@ namespace Povaga
 			public const int layout5 = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int Main = 2130903045;
+			public const int layout6 = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Main = 2130903046;
 			
 			static Layout()
 			{
