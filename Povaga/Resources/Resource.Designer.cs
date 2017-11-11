@@ -45,16 +45,19 @@ namespace Povaga
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int IMG_20171102_105536 = 2130837504;
+			public const int generalGolova = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int IMG_20171102_105758 = 2130837505;
+			public const int IMG_20171102_105536 = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int Moking = 2130837506;
+			public const int IMG_20171102_105758 = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int PovagaIcon = 2130837507;
+			public const int Moking = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int PovagaIcon = 2130837508;
 			
 			static Drawable()
 			{
