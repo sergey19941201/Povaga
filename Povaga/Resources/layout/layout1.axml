@@ -1,13 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:minWidth="25px"
-    android:minHeight="25px">
-    <ImageView
+    android:minHeight="25px"
+    android:background="@drawable/img_20171102_105536">
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView1"
-        android:background="@drawable/img_20171102_105536" />
-</LinearLayout>
+        android:layout_centerInParent="true">
+        <Button
+            android:text="Вчити Мокіна"
+            android:layout_width="match_parent"
+            android:layout_height="45.5dp"
+            android:id="@+id/button1"
+            android:background="#40FF1493" />
+        <Button
+            android:text="Проїбати уроки"
+            android:layout_width="match_parent"
+            android:layout_height="45.5dp"
+            android:id="@+id/button2"
+            android:layout_marginTop="8.5dp"
+            android:background="#4000FF00"
+            android:textColor="#FF0000" />
+        <Button
+            android:text="Йти на курси по фронт-енду"
+            android:layout_width="match_parent"
+            android:layout_height="45.5dp"
+            android:id="@+id/button3"
+            android:background="#4000FFFF"
+            android:layout_marginTop="8.5dp" />
+        <Button
+            android:text="Влаштуватись в Call-центр"
+            android:layout_width="match_parent"
+            android:layout_height="45.5dp"
+            android:id="@+id/button4"
+            android:background="#400000FF"
+            android:layout_marginTop="8.5dp"
+            android:textColor="#00FF00" />
+        <Button
+            android:text="Послати нахуй политех"
+            android:layout_width="match_parent"
+            android:layout_height="45.5dp"
+            android:id="@+id/button5"
+            android:background="#40FF0000"
+            android:layout_marginTop="8.5dp"
+            android:textColor="#00FFFF"
+            android:textAllCaps="true"
+            android:textSize="20dp" />
+    </LinearLayout>
+</RelativeLayout>
