@@ -85,7 +85,13 @@ namespace Povaga
 			public const int button5 = 2131034116;
 			
 			// aapt resource value: 0x7f050005
-			public const int textView1 = 2131034117;
+			public const int imageView1 = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int textView1 = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int textView2 = 2131034119;
 			
 			static Id()
 			{
@@ -104,7 +110,10 @@ namespace Povaga
 			public const int layout1 = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int layout2 = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{

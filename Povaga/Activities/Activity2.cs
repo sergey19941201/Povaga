@@ -13,19 +13,14 @@ using Android.Content.PM;
 
 namespace Povaga.Activities
 {
-    [Activity(Label = "Activity1", ScreenOrientation = ScreenOrientation.Portrait, Theme = "@android:style/Theme.Black.NoTitleBar")]
-    public class Activity1 : Activity
+    [Activity(Label = "Activity2", ScreenOrientation = ScreenOrientation.Portrait, Theme = "@android:style/Theme.Black.NoTitleBar")]
+    public class Activity2 : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.layout1);
-
-            FindViewById<Button>(Resource.Id.button1).Click += delegate
-              {
-                  StartActivity(typeof(Activity2));
-              };
+            SetContentView(Resource.Layout.layout2);
         }
     }
 }

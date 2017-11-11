@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="116.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:background="@drawable/moking"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Доброго дня, шановні студенти. Я максимально спростив програму у зв'язку з вашим розпиздяйським відношенням до навчання. Хтось може сказати, якого хуя ви на уроки по середам не ходите? Єбать! У мене в четвер ходять три чоловіки. Це піздец. Будем відраховувати. Без мови R ви не виживете в цьому світі. Це формалізована кореляційно-дисперсійно-регресійно-аналітична мова, яку ви будете вчити. Пітон вони захотіли... По єбалу хібащо вам пітоном. Лекцію завершено."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginLeft="7.5dp"
+        android:layout_marginTop="9.0dp"
+        android:textSize="20dp" />
+    <TextView
+        android:text="З повагою, Мокін В.Б."
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginTop="21.0dp"
+        android:layout_marginLeft="25.0dp" />
+</LinearLayout>

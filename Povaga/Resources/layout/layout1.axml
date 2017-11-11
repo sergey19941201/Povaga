@@ -16,7 +16,8 @@
             android:layout_width="match_parent"
             android:layout_height="45.5dp"
             android:id="@+id/button1"
-            android:background="#40FF1493" />
+            android:background="#40FF1493"
+            android:textSize="19dp" />
         <Button
             android:text="Проїбати уроки"
             android:layout_width="match_parent"
@@ -24,14 +25,16 @@
             android:id="@+id/button2"
             android:layout_marginTop="8.5dp"
             android:background="#4000FF00"
-            android:textColor="#FF0000" />
+            android:textColor="#FF0000"
+            android:textSize="19dp" />
         <Button
             android:text="Йти на курси по фронт-енду"
             android:layout_width="match_parent"
             android:layout_height="45.5dp"
             android:id="@+id/button3"
             android:background="#4000FFFF"
-            android:layout_marginTop="8.5dp" />
+            android:layout_marginTop="8.5dp"
+            android:textSize="19dp" />
         <Button
             android:text="Влаштуватись в Call-центр"
             android:layout_width="match_parent"
@@ -39,7 +42,8 @@
             android:id="@+id/button4"
             android:background="#400000FF"
             android:layout_marginTop="8.5dp"
-            android:textColor="#00FF00" />
+            android:textColor="#00FF00"
+            android:textSize="19dp" />
         <Button
             android:text="Послати нахуй политех"
             android:layout_width="match_parent"
