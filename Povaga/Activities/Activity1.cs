@@ -23,9 +23,13 @@ namespace Povaga.Activities
             SetContentView(Resource.Layout.layout1);
 
             FindViewById<Button>(Resource.Id.button1).Click += delegate
-              {
-                  StartActivity(typeof(Activity2));
-              };
+            {
+                StartActivity(typeof(Activity2));
+            };
+            FindViewById<Button>(Resource.Id.button2).Click += delegate
+            {
+                StartActivity(typeof(Activity3));
+            };
         }
     }
 }
