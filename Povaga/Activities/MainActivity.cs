@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using Android.Content.PM;
 using System.Timers;
+using Povaga.Activities;
 
 namespace Povaga
 {
@@ -19,6 +20,7 @@ namespace Povaga
             timer.Elapsed += delegate
             {
                 timer.Enabled = false;
+                StartActivity(typeof(Activity1));
             };
             timer.Enabled = true;
         }
